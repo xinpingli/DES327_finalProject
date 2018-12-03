@@ -7,7 +7,7 @@ body, html {
    background-repeat: no-repeat;
    background-attachment: fixed;
    background-size: cover;
-  
+
  }
 
 /* #9c4900  dark red brown color
@@ -17,11 +17,11 @@ body, html {
    #fea700   main color-logo orange 
 */
 
-.header-backgd, .logo, .menu {
+#header-backgd, #menu_button {
 	position: fixed;
 }
 
-.header-backgd {
+#header-backgd, #footer-backgd {
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -31,30 +31,45 @@ body, html {
 	z-index: 99;	
 }
 
-.logo {
-	margin: 0;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
+#menu_button {
 	width: 100%;
-	text-orientation: none;
-	display: inline-block;
-	z-index: 100;	
+	text-align: center;
+	z-index: 100;
+
 }
 
-.menu {
-	width: 100%;
-	text-align: center;
-	margin-top: 120px;
+/*#logo_center a,img {
+	 margin-left: auto;
+	 margin-right: auto;
+	 display: block;
+}
+*/
+#menu_left, #menu_right {
+    margin-top: 50px;
 	font-weight: bold;
-	letter-spacing: 2px;
-    z-index: 100;
+	word-spacing: 50px;
+	
+ }
+
+#menu_left {
+	float: left;
+	margin-left: 10%;   
+}
+#logo_center {
+	display: inline-block;
+    /*width:100px;*/
+
+    
+}
+
+#menu_right {
+	float: right;
+	margin-right: 10%;	
 }
 
 li {
 	list-style: none;
 	display: inline-block;
-	padding: 2%;
 	font-size: 30px;
 }
 
@@ -70,6 +85,7 @@ a:hover, a:active {
     
 }
 
+/* greeting information */
 .bgimg_1 {
 	width: 100%;
 	min-height: 100%;
@@ -87,6 +103,7 @@ a:hover, a:active {
 	text-shadow: 0 0 5px #fea700; /* light outline in text*/
 }
 
+/* product information*/
 .bgimg_2 {
 	margin-top: 100px;
 	width: 100%;
@@ -188,15 +205,61 @@ p {
 	margin-top: 150px;
 }
 
+/*bakc to top*/
+.back-to-top {
+	display: inline-block;
+	position: fixed;
+	padding: 15px;
+	right: 1%;
+	bottom: 10%;
+	z-index: 100;
+	border-radius: 50%;
+	background-color: #34190d;
+    text-align: center;
+}
+
+/*footer*/
 .footer_content {
 	width: 100%;
 	text-align: center;
+	word-spacing: 50px;
+	display: block;
+	bottom: -15%;
+	position:relative;
 }
-.copyright {
-	left: 100px;
-	padding: 10px 10px 20px;
-	position: absolute;
-	background-color: none;
+
+.icon_button {
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  top: 25%;
+  word-spacing: 10px;
+  position: relative;
+}
+
+.fa {
+	width: 20px;
+	padding: 20px;
+	border-radius: 50%;
+}
+
+.fa-facebook,.fa-yelp {
+  background: #fea700;
+  color: white;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+    color: #780900;
+}
+
+.copyRight {
+	width: 100%;
+	bottom: -20%;
+	text-align: center;
+	position: relative;
+
 }
 
 

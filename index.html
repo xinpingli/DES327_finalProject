@@ -4,27 +4,38 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<title>dragonpapa</title>
   </head>
 
   <body>
 	<!-- Header -->
-		<div class="header-backgd">
+		<div id="header-backgd">
 		</div>
 
-	    <div class="logo">
-			<a href="index.html">
-			<img class="logo-center" src="images/logo.png" width="180" height="180">
-			</a>
-	    </div>
-			
-		<div class="menu">
-			<ul>
-			    <li><a href="#">PRODUCTS</a></li>
-				<li><a href="#">HISTORY</a></li>
-				<li><a href="#">NEWS/EVENTS</a></li>
-				<li><a href="#">ABOUT</a></li>	
-			</ul>
+        <!-- menu botton -->
+        <div id="menu_button">
+				<div id="menu_left">
+					<ul>
+					    <li><a href="product.html">PRODUCTS</a></li>
+						<li><a href="history.html">HISTORY</a></li>
+					</ul>
+			    </div>
+
+			    <div id="logo_center">
+					<a href="index.html">
+					<img src="images/logo.png" width="180" height="180">
+					</a>
+			    </div>
+		   
+	            
+	            <div id="menu_right">
+					<ul>
+						<li><a href="#">NEWS/EVENTS</a></li>
+						<li><a href="#">ABOUT</a></li>	
+					</ul>
+			    </div>
+		
 		</div>
 
         <!-- homepage background and greeting title-->
@@ -87,15 +98,29 @@
 			</div>
 		</div>
 
+		<!-- back to top -->
+		<div>
+			<a style="color:white; font-size:20px" class="back-to-top"href="#">TOP</a>
+		</div>
+
+        <!-- footer -->
         <footer>
-        	<div class="footer_content">
-        		<ul>
-				<li><a href="#">Contact</a></li>
-				<li><a href="#">Terms and Condition</a></li>
-				<li><a href="#">Policy</a></li>	
-			</ul>
-			
-			<p class="copyright">Copyright@DragonPapa Inc. All rights reserved.</p>
+        	<div id="footer-backgd">
+	        	<div class="footer_content">
+	        	    <a href="#">Contact</a>
+					<a href="#">Terms&Condition</a>
+					<a href="#">Policy</a>
+			    </div>
+
+                <!-- icon:facebook and yelp -->
+			    <div class="icon_button">
+			    	<a href="#" class="fa fa-facebook"></a>
+			    	<a href="#" class="fa fa-yelp"></a>
+			    </div>   
+			    
+			    <p style="font-size:15px" class="copyRight">Copyright@Dragon Papa Inc. All rights reserved.</p>
+		      
+		</div>
         </footer>
 
 		
