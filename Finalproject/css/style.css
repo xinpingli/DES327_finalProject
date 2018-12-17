@@ -629,8 +629,349 @@ span {
 }
 
 
+/* product.html*/
+
+/* Section 1 */
+.product_p1 {
+	margin-top: 5%;
+	z-index: 80;
+	width: 100%;
+	
+}
+
+.image_candy {
+	width: 70%;
+	margin-left: 17%;
+}
+
+.key1,.key2{
+	position: absolute;
+	font-size: 35px; 
+	color: #fea700;
+	margin-left: 10%;
+	margin-top: 15%;
+}
+
+.key2{
+	margin-top: 25%;
+}
+
+@media screen and (max-width: 600px) {
+	.key1, .key2 {
+		font-size: 30px;
+	}
+}
+
+
+/* Section2 */
+.product_p2 {
+	margin-top: 8%;
+	z-index: 80;
+	width: 100%;
+
+}
+
+
+.process {
+	font-size: 40px;
+	text-decoration: overline;
+
+}
+
+
+
+.process_title {
+	position: absolute;
+	margin-left: 60%;
+}
+
+
+@media screen and (max-width: 600px) {
+	.process {
+		font-size: 25px;
+	}
+
+	.process_title {
+		margin-left: 55%;
+	}
+}
+
+.process_images {
+	width: 100%;
+} 
+
+.N_1, .N_2, .N_3, .N_4 {
+	position: absolute;
+	font-size: 30px;
+	color: #780900;
+	margin-top: 2%;
+}
+
+
+.text_1, .text_2, .text_3, .text_4 {
+	background-color: #7d8691;
+	color: #f7b43e;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 20%;
+}
+
+
+.step_1, .step_2, .step_3, .step_4 {
+	float: left;
+	padding: 3%;
+	width: 15%;
+	
+}
+
+.t_1, .t_2, .t_3, .t_4 {
+	font-size: 22px;
+}
+
+@media screen and (max-width: 1000px) {
+	.t_1, .t_2, .t_3, .t_4 {
+	font-size: 18px;}
+}
+
+
+.step_1 {
+	margin-left: 8%;
+}
+
+
+
+.step_2 {
+	margin-top: 4%;
+}
+
+.step_3 {
+	margin-top: 10%;
+}
+
+
+.step_4 {
+	margin-top: 15%;
+
+}
+
+@media screen and (max-width: 600px) {
+	.step_1, .step_2, .step_3, .step_4 {
+		width: 35%;
+
+	}
+
+	.step_3, .step_4 {
+		margin-left: 5%;
+		margin-top: 6%;
+	}
+
+}
+
+
+/* Section 3 */
+.product_p3 {
+	width: 100%;
+}
+
+.how_to_image {
+	width: 100%;
+}
+
+.eat_title{
+	position: absolute;
+	margin-top: 62%;
+	margin-left: 13%;
+}
+
+@media screen and (max-width: 600px) {
+	 .eat_title{
+		margin-top: 130%;
+	}
+}
+
+.eat {
+	font-size: 40px;
+	text-decoration: overline;
+	
+}
+
+.how_to_text {
+	position: absolute;
+	margin-top: 105%;
+	margin-left: 55%;
+	width: 38%;
+}
+
+@media screen and (max-width: 1000px) {
+	.how_to_text {
+		margin-top: 100%;
+	}
+}
+
+
+
+
+.eat_1 {
+	color: #f7b43e;
+	font-size: 20px;
+	text-align: left;
+}
+
+@media screen and (max-width: 600px) {
+	.how_to_text {
+		margin-top: 180%;
+		margin-left: 10%;
+		width: 80%;
+	}
+
+	.eat_title{
+		margin-top: 143%;
+	}
+
+	.eat{
+		font-size: 25px;
+	}
+
+	.eat_1 {  
+		font-size: 15px;
+		margin-top: 80%;
+	}
+	
+}
+.key_3 {
+	position: absolute;
+	margin-top: 75%;
+	margin-left: 60%;
+}
+
+@media screen and (max-width: 1000px) {
+	.key_3 {
+		margin-top: 75%;
+	}
+
+	.eat_1 {  
+		margin-top: 25%;
+	}
+	
+}
+
+.enjoy {
+	font-size: 50px;
+	transform: rotate(-90deg);
+}
+
+@media screen and (max-width: 1000px) {
+	.enjoy {
+		font-size: 40px; 
+	}
+	
+}
+
+@media screen and (max-width: 600px) {
+	.enjoy {
+		font-size: 25px; 
+	}
+
+	.key_3 {
+		margin-top: 165%;
+	}
+	
+}
+
+/* Section 4 */
+
+.product_4 {
+	z-index: 80;
+    width: 100%;
+}
+
+
+.additional {
+	font-size: 40px;
+	text-decoration: overline;
+	position: absolute;
+	margin-left: 40%;
+	margin-top: 5%;
+}
+
+
+
+.mochi, .deuk {
+	width: 100%;
+	
+}
+
+.deuk {
+	margin-top: 10%;
+	margin-left: 10%;
+
+}
+
+
+.mochi_image, .mochi_text {
+	width: 43%;
+	float: left;
+
+}
+ 
+.mochi_image {
+	margin-left: 5%;
+}
+
+.mochi_text {
+	margin-top: 9%;
+	padding: 5%;
+}
+
+@media screen and (max-width: 1000px) {
+	.mochi_text {
+		margin-top: 8%;
+	}
+}
+
+.Chinese_mochi, .deuktong{
+	font-size: 30px;
+}
+
+.ding_image, .ding_text {
+	float: left;
+	width: 45%;
+	
+}
+
+@media screen and (max-width: 600px) {
+	.additional {
+		font-size: 25px;
+	}
+
+	.Chinese_mochi, .deuktong {
+		font-size: 20px;
+	}
+}
+
+.t_5, .t_6 {
+	font-size: 22px;
+}
+
+@media screen and (max-width: 600px) {
+	.t_5, .t_6 {
+		font-size: 15px;}
+}
+
+
+/* For Product Footer Only*/
+#footer-backgd_product {
+	width: 100%;
+	margin-top: 10%;
+	min-height: 200px;
+	background-color: black;
+	opacity: .8;
+}
+
+
+
 /* history.html */
-* {
+#history_html {
 	box-sizing: border-box;
 }
 
@@ -772,12 +1113,13 @@ span {
 
 @media screen and (max-width: 1000px){
 	.introduction {
-		font-size: 15px;
+		font-size: 18px;
 	}
 }
 @media screen and (max-width: 600px){
 	.introduction {
-		font-size: 8px;
+		font-size: 12px;
+
 	}
 }
 
@@ -790,9 +1132,9 @@ span {
 .about_media p {
 	width: 100%;
 	text-align: center;
-	font-size: 20px;
+	font-size: 30px;
     color: #9c4900;
-    line-height: 2;
+    line-height: 1.5;
 }
 
 .mp4 {
@@ -819,6 +1161,14 @@ span {
 	margin-top: 5%;
 }
 
+.location p {
+	font-size: 25px;
+	width: 85%;
+	margin-left: 10%;
+
+}
+
+
 @media screen and (max-width: 1000px){
 	.map iframe {
 		width: 80%;
@@ -828,23 +1178,30 @@ span {
 
 @media screen and (max-width: 600px){
 	.map iframe {
-		width: 40%;
+		width: 80%;
 		height: 20%;
 	}
+
+	.location p {
+		width: 70%;
+		margin-left: 15%;
+		font-size: 14px;
+
+	}
 }
+
+
 .more_info,.contact_info {
 	 font-weight: bold; 
 	 margin-top: -10%;
 	 font-size: 30px;
 }
-@media screen and (max-width: 1000px){
-	.more_info,.contact_info {
-		font-size: 15px;
-	}
-}
+
+
+
 /* contact form */
 .address li {
-	font-size: 20px;
+	font-size: 25px;
 	display: block;
 	padding-bottom: 2%;
 	color: #780900;
@@ -852,7 +1209,7 @@ span {
 }
 
 .address a {
-	font-size: 20px;
+	font-size: 25px;
 	color: #fea700;
 }
 /*@media screen and (max-width: 1000px){
@@ -860,8 +1217,21 @@ span {
 		margin-top: 100%;
 	}
 }*/
+
+
+@media screen and (max-width: 600px) {
+	.address {
+		margin-top: 5%;
+	}
+
+	.address li, .address a {
+		font-size: 15px;
+	}
+
+}
+
 .contact {
-	width: 75%;
+	width: 60%;
 	margin-left: auto;
 	margin-right: auto;
   /*  margin-top: 5%;*/
@@ -874,6 +1244,12 @@ span {
     padding: 15%;
 }
 
+@media screen and (max-width: 600px) {
+	.contact {
+		width: 50%;
+	}
+}
+
 input[type=text], select, textarea {
   	width: 100%;
   	padding: 3%;
@@ -883,12 +1259,16 @@ input[type=text], select, textarea {
   	margin-top: 1%;
   	margin-bottom: 3%;
   	resize: vertical;
+  	font-size: 20px;
 }
 
 label {
   	padding: 12px 12px 12px 0;
   	display: inline-block;
+  	font-size: 25px;
 }
+
+
 
 input[type=submit] {
   	background-color: #fea700;
@@ -898,6 +1278,7 @@ input[type=submit] {
   	border-radius: 4px;
   	cursor: pointer;
   	float: right;
+  	font-size: 20px;
 }
 
 input[type=submit]:hover {
@@ -905,5 +1286,22 @@ input[type=submit]:hover {
 }
 
 
+@media screen and (max-width: 600px) {
+	label, input, select, textarea{
+		font-size: 15px;
+	}
 
+	input[type=submit] {
+		border-radius: 10px;
+		padding: 5px 9px;
+
+	}
+
+}
+
+@media screen and (max-width: 1000px) {
+	h1, h2, h3, h4 {
+		font-size: 30px;
+	}
+}
 
